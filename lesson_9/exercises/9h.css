@@ -1,0 +1,59 @@
+.box{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+.Google_logo{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: block;    
+    object-fit: cover;
+    object-position: top;
+    margin-top: 20px;
+}
+.search-bar{
+    padding-left: 20px;
+    font-size: 24px;
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);    
+    display: block;
+    margin-top: 20px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.search{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    margin-left: 210px;
+    font-size: 20px;
+}
+.lucky{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;  
+}
+.search:hover{
+    opacity: 0.8;
+}
+.search:active{
+    opacity: 0.5;
+}
+.lucky:hover{
+    opacity: 0.8;
+}
+.lucky:active{
+    opacity: 0.5;
+}

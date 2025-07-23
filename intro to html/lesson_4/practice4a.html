@@ -1,0 +1,189 @@
+<style>
+    .uber-button{
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 25px;
+        transition: opacity 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        display: block; /* Added display block */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .uber-button:hover{
+        opacity: 0.8;
+    }
+    .uber-button:active{
+        opacity: 0.5;
+    }
+    .Amazon-button{
+        background-color: rgb(255,216,20);
+        color: black;
+        border: none;
+        border-radius: 17px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        display: block; /* Added display block */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .Amazon-button:hover{
+        background-color: rgb(228, 190, 0);;
+    }
+    .Amazon-button:active{
+        background-color: rgb(218, 184, 16);
+    }
+    .Github-button{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: box shadow 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        display: block; /* Added display block */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Github-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+    }
+
+    .Github-button:active{
+        opacity: 0.5;
+    }
+    .Bootstrap-a{
+        background-color: rgb(121,82,179);
+        color:white;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:8px;
+        border-width: 1px;
+        transition: background-color 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: inline-block; /* Changed to inline-block */
+    }
+    .Bootstrap-a:hover{
+        background-color: rgb(89, 55, 139);
+    }
+    .Bootstrap-a:active{
+        opacity: 0.5;
+    }
+    .Bootstrap-b{
+        background-color: white;
+        color: rgb(108,117,125);
+        border-color: rgb(108,117,125);
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.15s,
+            color 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: inline-block; /* Changed to inline-block */
+    }
+    .Bootstrap-b:hover{
+        background-color: rgb(108,117,125);
+        color: white;
+    }
+    .Bootstrap-b:active{
+        opacity: 0.5;
+    }
+    .Linkedln-a{
+        background-color: rgb(10,102,194);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 17px;
+        font-size: bold;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 8px;
+        transition: background-color 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        display: inline-block; /* Changed to inline-block */
+    }
+    .Linkedln-a:hover{
+        background-color: rgb(6, 85, 165);
+    }
+    .Linkedln-a:active{
+        opacity: 0.5;
+    }
+    .Linkedln-b{
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: rgb(10,102,198);
+        border-color: rgb(10,102,194);
+        border-style: solid;
+        cursor: pointer;
+        border-width: 1px;
+        border-radius: 17px;
+        transition: border-width 0.15s,
+            background-color 0.15s;
+        margin-bottom: 20px; /* Added margin-bottom */
+        display: inline-block; /* Changed to inline-block */
+    }
+    .Linkedln-b:hover{
+        border-width: 2px;
+        background-color: rgb(179, 198, 218);
+    }
+    .Linkedln-b:active{
+        opacity: 0.5;
+    }
+</style>
+
+<button class="uber-button">
+    Request now
+</button> 
+<button class="Amazon-button">
+    Add to Cart
+</button>
+<button class="Github-button">
+    Sign up
+</button>
+<div>
+    <button class="Bootstrap-a">
+        Get started
+    </button>
+    <button class="Bootstrap-b">
+        Download
+    </button>
+</div>
+<div> <!--you have to add div in order to implement inline--> 
+    <button class="Linkedln-a">
+        Apply on company website
+    </button>
+    <button class="Linkedln-b">
+        Save
+    </button>
+</div>

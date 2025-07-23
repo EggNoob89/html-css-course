@@ -1,0 +1,63 @@
+p{
+    margin: 0px;
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.pfp{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+.text-box{
+    width: 300px;
+}
+.name{
+    font-weight: bold;
+
+}
+.nickname{
+    color: grey;
+}
+.pop{
+    color: grey;
+    font-size: 15px;
+}
+
+
+/* check this css flex thing out! */
+.button-box {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(54, 143, 210);
+    color: white;
+}
+.button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.button-box:active{
+    opacity: 0.5;
+}
+
